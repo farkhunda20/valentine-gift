@@ -11,10 +11,12 @@ No.addEventListener("click", () => {
   const respondno = document.createElement("div");
 
   container.appendChild(respondno);
-  response.innerHTML =
+  response.textContent =
     "no worries, I will be your Valentine, accept these flowers";
-  respondno.innerHTML = `
-  
+  respondno.appendChild(response);
+
+  response.textContent = respondno.innerHTML = `
+    
      
    <img src="https://cdn.euroflorist.com/Products/600x700/DE21VALMM04S_1.jpg" alt="">
   `;
