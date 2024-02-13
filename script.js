@@ -15,7 +15,7 @@ No.addEventListener("click", () => {
     "no worries, I will be your Valentine, accept these flowers";
   respondno.appendChild(response);
 
-  response.textContent = respondno.innerHTML = `
+  respondno.innerHTML = `
     
      
    <img src="https://cdn.euroflorist.com/Products/600x700/DE21VALMM04S_1.jpg" alt="">
