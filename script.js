@@ -12,5 +12,5 @@ No.addEventListener("click", () => {
   const image = document.createElement("img");
   image.src = "https://cdn.euroflorist.com/Products/600x700/DE21VALMM04S_1.jpg";
   container.appendChild(response);
-  container.appendChild("image");
+  container.appendChild(image);
 });
